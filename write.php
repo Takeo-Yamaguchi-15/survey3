@@ -25,7 +25,7 @@ try { // 例外処理開始
   $stmt = $pdo->prepare('INSERT INTO responses (name,email,phone,book,rating,reason) VALUES (?,?,?,?,?,?)'); // プリペアドステートメント生成
   $stmt->execute([$name,$email,$phone,$book,(int)$rating,$reason]); // パラメータバインド実行
 
-  // ★ここを read.php → bm_list_view.php に変更
+  // ここを read.php → bm_list_view.php に変更したが、なぜかreadにとんてしまう
   echo '<meta charset="UTF-8">登録完了 <a href="bm_list_view.php">一覧へ</a> / <a href="post.php">続けて入力</a>'; // 完了メッセージ出力
 
 } catch (PDOException $e) { // 例外捕捉
