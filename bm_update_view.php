@@ -26,10 +26,10 @@ try {
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>アンケート編集 #<?= (int)$row['id'] ?></title>
+  <title>ブックマーク編集 #<?= (int)$row['id'] ?></title>
 </head>
 <body>
-  <h1>アンケート編集 #<?= (int)$row['id'] ?></h1>
+  <h1>ブックマーク編集 #<?= (int)$row['id'] ?></h1>
 
   <?php if (isset($_GET['err']) && $_GET['err']==='validation'): ?>
     <p style="color:#c00">入力に不備があります。</p>

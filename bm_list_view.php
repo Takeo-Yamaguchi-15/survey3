@@ -41,10 +41,10 @@ try {
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>アンケート一覧</title>
+  <title>ブックマーク一覧</title>
 </head>
 <body>
-  <h1>アンケート一覧</h1>
+  <h1>ブックマーク一覧</h1>
 
   <?php if (isset($_GET['msg'])):
     $m = $_GET['msg'];

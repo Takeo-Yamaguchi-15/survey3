@@ -3,10 +3,10 @@
 <html lang="ja"> <!-- 文書の言語指定 -->
 <head> <!-- ヘッダ領域開始 -->
   <meta charset="UTF-8"> <!-- 文字エンコーディング指定 -->
-  <title>アンケート入力</title> <!-- ページタイトル -->
+  <title>ブックマークアプリ</title> <!-- ページタイトル -->
 </head> <!-- ヘッダ領域終了 -->
 <body> <!-- 本文開始 -->
-  <h1>アンケート入力</h1> <!-- 見出し表示 -->
+  <h1>ブックマークアプリ</h1> <!-- 見出し表示 -->
   <form action="write.php" method="post"> <!-- 送信先とメソッドの指定 -->
     <label>名前 <input type="text" name="name" required></label><br> <!-- 名前入力欄 -->
     <label>Email <input type="email" name="email" required></label><br> <!-- Email入力欄 -->
